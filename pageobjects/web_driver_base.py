@@ -7,7 +7,7 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
-from src.driver_base import DriverBase
+from pageobjects.driver_base import DriverBase
 
 
 class WebElementsBase(DriverBase):
